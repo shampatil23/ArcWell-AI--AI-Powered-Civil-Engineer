@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/info"
+    android:title="Info"
+    android:icon="@drawable/baseline_info_24"
+    app:showAsAction="never"></item>
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/baseline_help_center_24"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/contact"
+        android:title="Contact"
+        android:icon="@drawable/baseline_person_24"
+        app:showAsAction="never"></item>
+<item
+    android:id="@+id/feedback"
+    android:title="Feedback"
+    android:icon="@drawable/baseline_feedback_24"
+    app:showAsAction="never"></item>
+    <item
+        android:id="@+id/admin"
+        android:title="Register as Engineer"
+        android:icon="@drawable/baseline_admin_panel_settings_24"
+        app:showAsAction="never"></item>
+
+</menu>

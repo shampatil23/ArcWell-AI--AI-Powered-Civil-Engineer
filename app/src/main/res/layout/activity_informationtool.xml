@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".informationtool">
+
+    <!-- ScrollView to handle large content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- LinearLayout inside ScrollView to hold all TextViews -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header Section -->
+            <TextView
+                android:id="@+id/info_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info_header"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Description Section -->
+            <TextView
+                android:id="@+id/info_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info_description"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Core Components Title -->
+            <TextView
+                android:id="@+id/core_components_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/core_components_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Core Components Content -->
+            <TextView
+                android:id="@+id/ai_powered_design"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ai_powered_design"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/machine_learning_architecture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/machine_learning_architecture"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/gans_for_image_generation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gans_for_image_generation"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/automatic_floor_plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/automatic_floor_plan"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- AI-Powered Structural Analysis -->
+            <TextView
+                android:id="@+id/ai_powered_analysis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ai_powered_analysis"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/sustainability_design"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sustainability_design"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- AI-Driven Features Title -->
+            <TextView
+                android:id="@+id/ai_driven_features_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ai_driven_features_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- AI-Driven Features Content -->
+            <TextView
+                android:id="@+id/smart_space_optimization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/smart_space_optimization"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/material_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/material_selection"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/energy_efficiency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/energy_efficiency"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/urban_planning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urban_planning"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/model_generation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/model_generation"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/cost_estimation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cost_estimation"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/interior_design"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interior_design"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- More Sections -->
+            <TextView
+                android:id="@+id/ai_in_building_systems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ai_in_building_systems"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/ai_algorithms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ai_algorithms"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/benefits_of_ai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/benefits_of_ai"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/ai_in_layout_generation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ai_in_layout_generation"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/ai_in_construction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ai_in_construction"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/ai_in_renovation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ai_in_renovation"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- AI in Future Architecture -->
+            <TextView
+                android:id="@+id/ai_future_architecture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ai_future_architecture"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Conclusion -->
+            <TextView
+                android:id="@+id/conclusion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/conclusion"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

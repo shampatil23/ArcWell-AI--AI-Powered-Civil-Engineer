@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#287FE8</item>
+        <item name="colorPrimaryVariant">#1E6AD4</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#EEF4FF</item>
+        <item name="colorOnSecondaryContainer">#287FE8</item>
+        <item name="android:statusBarColor">#1A3C8F</item>
+    </style>
+
+    <style name="Theme.App" parent="Base.Theme.App" />
+
+    <style name="Theme.App.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.App.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.App.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Toolbar title: bold, slightly larger, white -->
+    <style name="ToolbarTitleStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+</resources>

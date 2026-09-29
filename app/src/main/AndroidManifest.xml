@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/azx"
+        android:label="ArcWell AI"
+        android:roundIcon="@drawable/azx"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewPlanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DraftPlansActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SavedPlansActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaterialEstimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApiKeyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sample"
+            android:exported="false" />
+        <activity
+            android:name=".GeneratePlan"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManualPlanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PlanDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SamplePlansActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FullScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EngineerHelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BestDesignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegEngLIst"
+            android:exported="false" />
+        <activity
+            android:name=".RegEng"
+            android:exported="false" />
+        <activity
+            android:name=".FastOutputActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SmartAIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GenerateAIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".contacttool"
+            android:exported="false" />
+        <activity
+            android:name=".helptool"
+            android:exported="false" />
+        <activity
+            android:name=".informationtool"
+            android:exported="false" />
+        <activity
+            android:name=".FullScreenImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ai"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_page"
+            android:exported="false" />
+        <activity
+            android:name=".EngineerDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterEngineerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EngineersListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".register_page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlanViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

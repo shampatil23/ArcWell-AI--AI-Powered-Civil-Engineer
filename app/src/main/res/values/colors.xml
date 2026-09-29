@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Premium Design System Palette -->
+    <color name="primary_blue">#287FE8</color>
+    <color name="primary_blue_dark">#1E6AD4</color>
+    <color name="dark_navy">#172033</color>
+    <color name="soft_gray">#64748B</color>
+    <color name="background">#F6F8FC</color>
+    <color name="input_bg">#F4F7FB</color>
+    <color name="border_gray">#E2E8F0</color>
+    <color name="divider_gray">#CBD5E1</color>
+    
+    <!-- Success/Error/Warning States -->
+    <color name="success">#16A34A</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#EF4444</color>
+
+    <!-- Background Gradients -->
+    <color name="bg_gradient_start">#3B82F6</color>
+    <color name="bg_gradient_end">#2563EB</color>
+
+    <!-- Generic Aliases (for cross-compatibility) -->
+    <color name="primary">#287FE8</color>
+    <color name="text_primary">#172033</color>
+    <color name="text_secondary">#64748B</color>
+
+    <!-- Legacy colors (kept for compatibility with older code if any) -->
+    <color name="color_login_buttonpress">#EE3162</color>
+    <color name="disabled_login">#acacac</color>
+    <color name="color_login_button">#FF3366</color>
+    <color name="focusable_login">#7ed28c</color>
+    <color name="default_login">#5eeacc</color>
+    <color name="pressed_login">#028026</color>
+</resources>

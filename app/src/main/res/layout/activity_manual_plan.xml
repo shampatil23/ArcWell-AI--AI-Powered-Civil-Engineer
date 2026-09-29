@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="Drawing App" />
+
+    <!-- Drawing Canvas -->
+    <view
+        class="com.example.app.view.DrawingCanvas"
+        android:id="@+id/drawing_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@+id/controls_layout"
+        android:background="@android:color/white"/>
+
+    <!-- Controls Layout -->
+    <LinearLayout
+        android:id="@+id/controls_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#EEEEEE">
+
+        <Button
+            android:id="@+id/btn_line"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Line"
+            android:backgroundTint="#3F51B5"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_rectangle"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Rectangle"
+            android:backgroundTint="#3F51B5"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_circle"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Circle"
+            android:backgroundTint="#3F51B5"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_undo"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Undo"
+            android:backgroundTint="#FF9800"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Clear"
+            android:backgroundTint="#F44336"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <!-- Measurement Display -->
+    <TextView
+        android:id="@+id/tv_measurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="16dp"
+        android:background="#80FFFFFF"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="Measurement: 0.00 units"/>
+
+    <!-- Save and Download Buttons -->
+    <LinearLayout
+        android:id="@+id/save_download_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_marginBottom="56dp">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:backgroundTint="#2196F3"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>
