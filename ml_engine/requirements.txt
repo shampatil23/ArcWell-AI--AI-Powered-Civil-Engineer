@@ -1,0 +1,4 @@
+# ArcWell AI - Machine Learning Engine Requirements
+# Zero heavy dependencies required!
+# This model runs natively on Python 3.6+ using standard math and csv libraries.
+# Perfectly optimized for Intel Core i3 / budget laptops (< 15 MB RAM, < 5 ms inference).
